@@ -1,4 +1,4 @@
-# Hi there! 👋 I'm Miro
+# Hi there! 👋 I'm Miro - 暮霭
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%26+AI+Enthusiast;Blockchain+%26+Crypto+Analyst;Building+the+Future+of+DeFi" alt="Typing SVG" />
