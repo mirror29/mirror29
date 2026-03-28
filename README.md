@@ -41,6 +41,7 @@ I'm a passionate **Full-Stack Developer** and **Blockchain Enthusiast** with a f
 
 ### Database & ORM
 
+![Supabase](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 
@@ -87,6 +88,11 @@ I'm a passionate **Full-Stack Developer** and **Blockchain Enthusiast** with a f
 
 ### 🚀 Other Notable Projects
 
+<div>
+  <a href="https://github.com/mirror29/wangEditor-formula](https://github.com/cryptoSUN2049/openFinclaw">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mirror29&repo=openFinclaw&theme=tokyonight&hide_border=true" alt="Project 1" />
+  </a>
+</div>
 <div>
   <a href="https://github.com/mirror29/wangEditor-formula">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=mirror29&repo=wangEditor-formula&theme=tokyonight&hide_border=true" alt="Project 1" />
