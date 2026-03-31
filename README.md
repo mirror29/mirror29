@@ -10,6 +10,7 @@ I'm a **Full-Stack Developer** with 8+ years of experience, specializing in **AI
 
 - 🔭 Currently working on **openFinclaw** - AI-powered quantitative fund manager
 - 🌱 Exploring **AI Agent Skills ecosystem**, protocol standards (MCP / A2A), and **AI-assisted development** (Claude Code)
+- 🧪 Deep-diving into **Harness Engineering** — building and customizing AI development harnesses like **gstack** (headless browser QA, deploy pipelines, design systems) and **Superpower skills** (agent-driven workflows, skill composition, autonomous dev loops)
 - 👯 Looking to collaborate on **AI Agents**, **quantitative trading**, and **DeFi** projects
 - 💬 Ask me about **Next.js**, **React**, **TypeScript**, **AI Agents**, and **Supabase**
 - ⚡ Fun fact: I believe AI agents will revolutionize how we interact with financial systems
@@ -40,6 +41,7 @@ I'm a **Full-Stack Developer** with 8+ years of experience, specializing in **AI
 ![MCP](https://img.shields.io/badge/MCP-FF6B6B?style=for-the-badge&logoColor=white)
 ![A2A](https://img.shields.io/badge/A2A-4ECDC4?style=for-the-badge&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)
+![gstack](https://img.shields.io/badge/gstack-1a1a2e?style=for-the-badge&logoColor=white)
 
 ### Database & ORM
 
@@ -78,57 +80,26 @@ I'm a **Full-Stack Developer** with 8+ years of experience, specializing in **AI
 
 ## 🏆 Featured Projects
 
-### 🤖 openFinclaw - AI Quantitative Fund Manager
+<div align="center">
 
-> An autonomous AI fund manager that researches, backtests, trades, and learns — built on OpenClaw (68K+ stars)
+<a href="https://github.com/cryptoSUN2049/openFinclaw">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=cryptoSUN2049&repo=openFinclaw&theme=tokyonight&hide_border=true&border_color=0d1117" alt="openFinclaw" />
+</a>
+<a href="https://github.com/mirror29/mcp-gateway">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mirror29&repo=mcp-gateway&theme=tokyonight&hide_border=true&border_color=0d1117" alt="mcp-gateway" />
+</a>
+<a href="https://github.com/mirror29/wangEditor-formula">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mirror29&repo=wangEditor-formula&theme=tokyonight&hide_border=true&border_color=0d1117" alt="wangEditor-formula" />
+</a>
 
-**🛠️ Tech Stack:** TypeScript, Python, OpenAI Agents, LangChain, PostgreSQL, Docker
-
-**✨ Key Features:**
-
-- 🤖 **AI Autonomous Manager**: 24/7 market scanning, strategy discovery, backtesting, and live trading
-- 📊 **Multi-Market Coverage**: US Stocks, A-Shares, HK Stocks, Gold, Crypto
-- 🧠 **Memory System**: Episode → Insight → Skill evolution
-- 📈 **Strategy Lifecycle**: L0 (Discovery) → L3 (Live Trading)
-- 💬 **Proactive Reporting**: Telegram/WhatsApp notifications
-- 🔄 **DeepAgent Integration**: 54 analysis skills, 6 expert agents
-
-**🔗 [GitHub](https://github.com/cryptoSUN2049/openFinclaw) ⭐ 118 stars**
-
-### 🌐 mcp-gateway - MCP Gateway Server
-
-> 专属 MCP 网关服务器 - 统一管理和调用多个 MCP 服务
-
-**🛠️ Tech Stack:** TypeScript, MCP Protocol
-
-**✨ Key Features:**
-
-- 🔌 **Unified Gateway**: Centralized management for multiple MCP services
-- 🔄 **Protocol Routing**: Smart routing and load balancing across MCP endpoints
-- 🛡️ **Access Control**: Fine-grained permission management for service invocation
-
-**🔗 [GitHub](https://github.com/mirror29/mcp-gateway) ⭐ 5 stars**
-
-### 🔍 ChainHunter - AI Blockchain Intelligence
-
-> AI-powered agent for automated trading, arbitrage, and blockchain intelligence
-
-**🛠️ Tech Stack:** Python, AI Agents, Web3, Blockchain APIs
-
-**✨ Key Features:**
-
-- 🤖 **AI-Driven Analysis**: Automated on-chain data analysis and pattern recognition
-- 💹 **Trading Automation**: Smart arbitrage detection and execution
-- 🔗 **Multi-Chain Support**: Cross-chain intelligence aggregation
-
-**🔗 [GitHub](https://github.com/mirror29/ChainHunter)**
+</div>
 
 ## 🌟 Focus Areas
 
 - AI Agent Skills ecosystem and standardization
 - MCP / A2A protocol development
 - Quantitative trading strategies and backtesting
-- AI-assisted development workflows
+- AI-assisted development workflows & **Harness Engineering** (gstack, Superpower skills)
 - DeFi protocols and on-chain analysis
 
 ## 🤝 Let's Connect
