@@ -1,21 +1,20 @@
 # Hi there! 👋 I'm Miro - 暮霭
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%26+AI+Enthusiast;Blockchain+%26+Crypto+Analyst;Building+the+Future+of+DeFi" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%26+AI+Agent+Developer;Financial+Technology+Enthusiast;Building+AI-Powered+Financial+Tools" alt="Typing SVG" />
 </div>
 
 ## 🚀 About Me
 
-I'm a passionate **Full-Stack Developer** and **Blockchain Enthusiast** with a focus on building intelligent AI-powered applications. Currently working on **ChainHunter**, an AI-driven blockchain analysis platform that combines cutting-edge AI technology with comprehensive crypto market analysis.
+I'm a **Full-Stack Developer** with 8+ years of experience, specializing in **AI Agent systems** and **financial technology**. Currently focused on building intelligent investment tools that make financial intelligence accessible to everyone through AI agents.
 
-- 🔭 Currently working on **ChainHunter** - AI-powered blockchain intelligence platform
-- 🌱 Learning advanced **AI/ML** techniques and **DeFi** protocols
-- 👯 Looking to collaborate on **AI**, **Blockchain**, and **Web3** projects
-- 💬 Ask me about **React**, **Python**, **FastAPI**, **AI Agents**, and **Crypto Analysis**
-- ⚡ Fun fact: I love building tools that make complex data accessible and actionable
+- 🔭 Currently working on **openFinclaw** - AI-powered quantitative fund manager
+- 🌱 Exploring **AI Agent Skills ecosystem**, protocol standards (MCP / A2A), and **AI-assisted development** (Claude Code)
+- 👯 Looking to collaborate on **AI Agents**, **quantitative trading**, and **DeFi** projects
+- 💬 Ask me about **Next.js**, **React**, **TypeScript**, **AI Agents**, and **Supabase**
+- ⚡ Fun fact: I believe AI agents will revolutionize how we interact with financial systems
 
 ## 🛠️ Tech Stack
-
 
 ### Frontend Development
 
@@ -23,8 +22,10 @@ I'm a passionate **Full-Stack Developer** and **Blockchain Enthusiast** with a f
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Vue](https://img.shields.io/badge/vue-4FC08D?style=for-the-badge&logo=vue.js&logoColor=black)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
 
 ### Backend Development
 
@@ -32,114 +33,107 @@ I'm a passionate **Full-Stack Developer** and **Blockchain Enthusiast** with a f
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
-### AI & Machine Learning
+### AI & Agent
 
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-326732?style=for-the-badge&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-FF6B6B?style=for-the-badge&logoColor=white)
+![A2A](https://img.shields.io/badge/A2A-4ECDC4?style=for-the-badge&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)
 
 ### Database & ORM
 
-![Supabase](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-
-### DevOps & Deployment
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ### Blockchain & Crypto
 
 ![Bitcoin](https://img.shields.io/badge/Bitcoin-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white)
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
-![Binance](https://img.shields.io/badge/Binance-F3BA2F?style=for-the-badge&logo=binance&logoColor=black)
+![Web3](https://img.shields.io/badge/Web3-FFFFFF?style=for-the-badge&logoColor=black)
+
+### DevOps & Deployment
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+### Testing
+
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 
 ## 📈 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mirror29&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mirror29&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=mirror29&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <img src="https://streak-stats.demolab.com/?user=mirror29&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mirror29&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=mirror29&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
 
 ## 🏆 Featured Projects
 
-### 🤖 ChainHunter - AI Blockchain Intelligence Platform
+### 🤖 openFinclaw - AI Quantitative Fund Manager
 
-> A comprehensive AI-powered platform for crypto market analysis and blockchain intelligence
+> An autonomous AI fund manager that researches, backtests, trades, and learns — built on OpenClaw (68K+ stars)
 
-**🛠️ Tech Stack:** Next.js, FastAPI, OpenAI Agents, PostgreSQL, Docker, MCP Protocol
+**🛠️ Tech Stack:** TypeScript, Python, OpenAI Agents, LangChain, PostgreSQL, Docker
 
-**✨ Features:**
+**✨ Key Features:**
 
-- 🤖 AI-powered chat assistant with bilingual support
-- 📊 Real-time crypto price analysis and predictions
-- 📈 Advanced technical indicators and market sentiment analysis
-- 🔍 Comprehensive market overview and trend analysis
-- 💰 Risk assessment and investment recommendations
+- 🤖 **AI Autonomous Manager**: 24/7 market scanning, strategy discovery, backtesting, and live trading
+- 📊 **Multi-Market Coverage**: US Stocks, A-Shares, HK Stocks, Gold, Crypto
+- 🧠 **Memory System**: Episode → Insight → Skill evolution
+- 📈 **Strategy Lifecycle**: L0 (Discovery) → L3 (Live Trading)
+- 💬 **Proactive Reporting**: Telegram/WhatsApp notifications
+- 🔄 **DeepAgent Integration**: 54 analysis skills, 6 expert agents
 
-**🔗 [Live Demo](https://chain-hunter.vercel.app/) [GitHub](https://github.com/mirror29)**
+**🔗 [GitHub](https://github.com/cryptoSUN2049/openFinclaw) ⭐ 118 stars**
 
-### 🚀 Other Notable Projects
+### 🌐 mcp-gateway - MCP Gateway Server
 
-<div>
-  <a href="https://github.com/mirror29/wangEditor-formula](https://github.com/cryptoSUN2049/openFinclaw">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mirror29&repo=openFinclaw&theme=tokyonight&hide_border=true" alt="Project 1" />
-  </a>
-</div>
-<div>
-  <a href="https://github.com/mirror29/wangEditor-formula">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mirror29&repo=wangEditor-formula&theme=tokyonight&hide_border=true" alt="Project 1" />
-  </a>
-</div>
+> 专属 MCP 网关服务器 - 统一管理和调用多个 MCP 服务
 
-## 🌟 Skills & Expertise
+**🛠️ Tech Stack:** TypeScript, MCP Protocol
 
-```python
-class Developer:
-    def __init__(self):
-        self.name = "Miro"
-        self.role = "Full-Stack Developer & AI Enthusiast"
-        self.languages = ["Python", "TypeScript", "JavaScript"]
-        self.frameworks = {
-            "frontend": ["Next.js", "React", "Tailwind CSS"],
-            "backend": ["FastAPI", "Node.js", "Nest.js"],
-            "ai": ["OpenAI Agents", "scikit-learn", "pandas"],
-            "blockchain": ["Web3.py", "Binance API", "DeFi Protocols"]
-        }
-        self.databases = ["PostgreSQL", "MongoDB", "Redis"]
-        self.tools = ["Docker", "Git", "Prisma", "MCP Protocol"]
+**✨ Key Features:**
 
-    def current_focus(self):
-        return [
-            "Building AI-powered blockchain analysis tools",
-            "Developing DeFi protocols and smart contracts",
-            "Creating intuitive UIs for complex financial data",
-            "Implementing advanced ML models for price prediction"
-        ]
-```
+- 🔌 **Unified Gateway**: Centralized management for multiple MCP services
+- 🔄 **Protocol Routing**: Smart routing and load balancing across MCP endpoints
+- 🛡️ **Access Control**: Fine-grained permission management for service invocation
 
-## 📊 Activity Graph
+**🔗 [GitHub](https://github.com/mirror29/mcp-gateway) ⭐ 5 stars**
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mirror29&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
-</div>
+### 🔍 ChainHunter - AI Blockchain Intelligence
 
-## 🏅 Achievements
+> AI-powered agent for automated trading, arbitrage, and blockchain intelligence
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mirror29&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
-</div>
+**🛠️ Tech Stack:** Python, AI Agents, Web3, Blockchain APIs
+
+**✨ Key Features:**
+
+- 🤖 **AI-Driven Analysis**: Automated on-chain data analysis and pattern recognition
+- 💹 **Trading Automation**: Smart arbitrage detection and execution
+- 🔗 **Multi-Chain Support**: Cross-chain intelligence aggregation
+
+**🔗 [GitHub](https://github.com/mirror29/ChainHunter)**
+
+## 🌟 Focus Areas
+
+- AI Agent Skills ecosystem and standardization
+- MCP / A2A protocol development
+- Quantitative trading strategies and backtesting
+- AI-assisted development workflows
+- DeFi protocols and on-chain analysis
 
 ## 🤝 Let's Connect
 
-I'm always interested in collaborating on exciting projects, especially those involving AI, blockchain, and innovative web technologies!
+I'm always interested in collaborating on exciting projects, especially those involving AI agents, quantitative trading, and innovative financial technologies!
 
 <div align="center" style="display: flex; justify-content: center; gap: 10px;">
   <a href="mailto:cma19951230@gmail.com">
@@ -160,9 +154,9 @@ I'm always interested in collaborating on exciting projects, especially those in
 </div>
 
 <div align="center">
-  <i>💫 "Building the future of decentralized finance, one commit at a time" 💫</i>
+  <i>💫 "Building the future of AI-powered finance, one commit at a time" 💫</i>
 </div>
 
 ---
 
-⭐ **Fun Fact:** I believe that the intersection of AI and blockchain technology will revolutionize how we interact with financial systems. That's why I'm dedicated to creating tools that make complex crypto data accessible and actionable for everyone!
+⭐ **Fun Fact:** I believe the intersection of AI agents and financial technology will democratize access to sophisticated investment tools, making financial intelligence accessible to everyone!
