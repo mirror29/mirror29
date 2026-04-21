@@ -82,9 +82,6 @@ I'm a **Full-Stack Developer** with 8+ years of experience, specializing in **AI
 
 <div align="center">
 
-<a href="https://github.com/cryptoSUN2049/openFinclaw">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=cryptoSUN2049&repo=openFinclaw&theme=tokyonight&hide_border=true&border_color=0d1117" alt="openFinclaw" />
-</a>
 <a href="https://github.com/mirror29/wangEditor-formula">
 <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mirror29&repo=wangEditor-formula&theme=tokyonight&hide_border=true&border_color=0d1117" alt="wangEditor-formula" />
 </a>
