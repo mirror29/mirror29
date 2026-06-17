@@ -105,10 +105,10 @@ Always happy to talk about AI agents, quantitative trading, and what happens whe
   <a href="mailto:cma19951230@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
-  <a href="https://www.linkedin.com/in/某-陈-467023301/">
+  <a href="https://www.linkedin.com/in/miro-chen-467023301">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
-  <a href="https://x.com/miro__cc">
+  <a href="https://x.com/inalpha_quant">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
   </a>
 </div>
