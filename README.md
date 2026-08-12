@@ -67,10 +67,10 @@ A quant framework where the agent is the researcher, not the trader:
 <div align="center">
 
 <a href="https://github.com/mirror29/inalpha">
-<img src="./assets/profile/inalpha.svg" alt="Inalpha" width="420" />
+<img src="./assets/profile/inalpha.svg" alt="Inalpha" width="49%" />
 </a>
 <a href="https://github.com/mirror29/openfinclaw-cli">
-<img src="./assets/profile/openfinclaw-cli.svg" alt="openfinclaw-cli" width="420" />
+<img src="./assets/profile/openfinclaw-cli.svg" alt="openfinclaw-cli" width="49%" />
 </a>
 
 </div>
@@ -78,8 +78,8 @@ A quant framework where the agent is the researcher, not the trader:
 ## 📈 GitHub Stats
 
 <div align="center">
-  <img src="./assets/profile/stats.svg" alt="GitHub Stats" width="420" />
-  <img src="https://streak-stats.demolab.com/?user=mirror29&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="./assets/profile/stats.svg" alt="GitHub Stats" width="49%" />
+  <img src="https://streak-stats.demolab.com/?user=mirror29&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="49%" />
 </div>
 
 <div align="center">

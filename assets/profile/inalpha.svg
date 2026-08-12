@@ -1,16 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="420" height="138" viewBox="0 0 420 138" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="176" viewBox="0 0 420 176" role="img">
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0C1714"/>
+      <stop offset="1" stop-color="#07100E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#52E0A4"/>
+      <stop offset="1" stop-color="#52E0A4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
   <style>
-    .title { fill: #70a5fd; font: 600 18px -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; }
-    .name { fill: #bf91f3; font: 600 20px -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; }
-    .label { fill: #38bdae; font: 600 13px -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; }
-    .text { fill: #a4aacb; font: 14px -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; }
-    .value { fill: #e4e7f2; font: 600 16px -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; }
+    .eyebrow { fill: #52E0A4; font: 700 10px 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace; letter-spacing: 1.8px; }
+    .title { fill: #F2F7F5; font: 700 19px 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace; }
+    .text { fill: #AAB8B3; font: 13px 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace; }
+    .muted { fill: #64746F; font: 10px 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace; letter-spacing: .5px; }
+    .value { fill: #F2F7F5; font: 700 24px 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace; font-variant-numeric: tabular-nums; }
+    .metric { fill: #AAB8B3; font: 600 11px 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace; }
   </style>
-  <rect x="1" y="1" width="418" height="136" rx="8" fill="#1a1b27" stroke="#30363d"/>
-  <text x="24" y="38" class="name">inalpha</text>
-  <text x="24" y="70" class="text">🦊 Open-source professional quant agent framework. Agents pick the...</text>
-  <circle cx="30" cy="106" r="6" fill="#3572A5"/>
-  <text x="42" y="111" class="text">Python</text>
-  <text x="170" y="111" class="text">★ 26</text>
-  <text x="250" y="111" class="text">⑂ 5</text>
+  <rect x="1" y="1" width="418" height="174" rx="10" fill="url(#surface)" stroke="#263A33"/>
+  <rect x="1" y="1" width="418" height="3" rx="2" fill="url(#accent)"/>
+  <circle cx="386" cy="25" r="3" fill="#52E0A4"/>
+  <circle cx="398" cy="25" r="3" fill="#263A33"/>
+  <text x="24" y="30" class="eyebrow">FEATURED / OPEN SOURCE</text>
+  <path d="M24 45h10l5 9-5 9H24l-5-9z" fill="#52E0A4" fill-opacity=".14" stroke="#52E0A4"/>
+  <path d="M24 50l4 4-4 4m6 0h4" fill="none" stroke="#52E0A4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="50" y="61" class="title">Inalpha</text>
+  <text x="24" y="91" class="text">Open-source professional quant agent framework.</text>
+  <text x="24" y="111" class="text">Agents pick the factors working now to time…</text>
+  <line x1="24" y1="132" x2="396" y2="132" stroke="#20322C"/>
+  <circle cx="29" cy="151" r="4" fill="#52E0A4"/>
+  <text x="40" y="155" class="metric">Python</text>
+  <path d="M220 144.5l2.1 4.2 4.6.7-3.3 3.2.8 4.6-4.2-2.2-4.2 2.2.8-4.6-3.3-3.2 4.6-.7z" fill="none" stroke="#AAB8B3" stroke-width="1.2"/>
+  <text x="233" y="155" class="metric">26</text>
+  <path d="M319 144v5a4 4 0 004 4h3m-7-9a2 2 0 11-4 0 2 2 0 014 0zm11 0a2 2 0 11-4 0 2 2 0 014 0zm0 0v2a4 4 0 01-4 4h-3" fill="none" stroke="#AAB8B3" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="337" y="155" class="metric">5</text>
 </svg>
