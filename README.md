@@ -29,11 +29,15 @@ A quant framework where the agent is the researcher, not the trader:
 ### AI & Agent
 
 ![Claude](https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)
-![Mastra](https://img.shields.io/badge/Mastra-1a1a2e?style=for-the-badge&logoColor=white)
-![CopilotKit](https://img.shields.io/badge/CopilotKit-6366F1?style=for-the-badge&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-FF6B6B?style=for-the-badge&logoColor=white)
-![A2A](https://img.shields.io/badge/A2A-4ECDC4?style=for-the-badge&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Mastra](https://img.shields.io/badge/Mastra-1A1A2E?style=for-the-badge)
+![MCP](https://img.shields.io/badge/MCP-FF6B6B?style=for-the-badge)
+![Agent Orchestration](https://img.shields.io/badge/Agent_Orchestration-0F766E?style=for-the-badge)
+![Multi-Agent](https://img.shields.io/badge/Multi--Agent-2563EB?style=for-the-badge)
+![Agent Skills](https://img.shields.io/badge/Agent_Skills-7C3AED?style=for-the-badge)
+![AI Guardrails](https://img.shields.io/badge/AI_Guardrails-DC2626?style=for-the-badge)
+![Harness Engineering](https://img.shields.io/badge/Harness_Engineering-111827?style=for-the-badge)
+![Sandboxing](https://img.shields.io/badge/Sandboxing-D97706?style=for-the-badge)
 
 ### Backend & Quant
 
