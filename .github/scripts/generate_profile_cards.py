@@ -8,6 +8,7 @@ import json
 import os
 import urllib.request
 from collections import Counter
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
@@ -16,6 +17,7 @@ USERNAME = "mirror29"
 FEATURED_REPOSITORIES = ("inalpha", "openfinclaw-cli")
 OUTPUT_DIRECTORY = Path(__file__).resolve().parents[2] / "assets" / "profile"
 API_ROOT = "https://api.github.com"
+GRAPHQL_API = "https://api.github.com/graphql"
 CARD_WIDTH = 420
 PALETTE = ("#52E0A4", "#F0B35A", "#6CB6FF", "#D2A8FF", "#FF7B72")
 
@@ -34,6 +36,51 @@ def github_get(path: str) -> Any:
     request = urllib.request.Request(f"{API_ROOT}{path}", headers=headers)
     with urllib.request.urlopen(request, timeout=30) as response:
         return json.load(response)
+
+
+def github_graphql(query: str) -> Any:
+    """Execute an authenticated query against GitHub's GraphQL API."""
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token:
+        raise RuntimeError("GITHUB_TOKEN is required for contribution statistics")
+    request = urllib.request.Request(
+        GRAPHQL_API,
+        data=json.dumps({"query": query}).encode("utf-8"),
+        headers={
+            "Accept": "application/vnd.github+json",
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+            "User-Agent": f"{USERNAME}-profile-card-generator",
+            "X-GitHub-Api-Version": "2022-11-28",
+        },
+        method="POST",
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        payload = json.load(response)
+    if payload.get("errors"):
+        raise RuntimeError(f"GitHub GraphQL query failed: {payload['errors']}")
+    return payload["data"]
+
+
+def total_contributions_since(created_at: str) -> int:
+    """Return the sum of GitHub contributions from account creation to now."""
+    created_year = datetime.fromisoformat(created_at.replace("Z", "+00:00")).year
+    current_year = datetime.now(UTC).year
+    yearly_queries = []
+    for year in range(created_year, current_year + 1):
+        yearly_queries.append(
+            f'y{year}: contributionsCollection('
+            f'from: "{year}-01-01T00:00:00Z", '
+            f'to: "{year}-12-31T23:59:59Z") '
+            "{ contributionCalendar { totalContributions } }"
+        )
+    data = github_graphql(
+        f'query {{ user(login: "{USERNAME}") {{ {" ".join(yearly_queries)} }} }}'
+    )
+    return sum(
+        collection["contributionCalendar"]["totalContributions"]
+        for collection in data["user"].values()
+    )
 
 
 def escape(value: object) -> str:
@@ -123,18 +170,20 @@ def repository_card(repository: dict[str, Any]) -> str:
     return svg_shell(176, body, accent)
 
 
-def stats_card(user: dict[str, Any], repositories: list[dict[str, Any]]) -> str:
+def stats_card(
+    user: dict[str, Any], repositories: list[dict[str, Any]], contributions: int
+) -> str:
     """Render aggregate public GitHub statistics."""
     stars = sum(repository["stargazers_count"] for repository in repositories)
     forks = sum(repository["forks_count"] for repository in repositories)
     metrics = (
-        ("REPOSITORIES", user["public_repos"], "M8 2v12M2 8h12"),
-        ("TOTAL STARS", stars, "M8 1.8l1.9 3.9 4.3.6-3.1 3 .8 4.3L8 11.3 4.1 13.6l.8-4.3-3.1-3 4.3-.6z"),
-        ("TOTAL FORKS", forks, "M4 3v7a3 3 0 003 3h2M12 3v2a3 3 0 01-3 3H7"),
-        ("FOLLOWERS", user["followers"], "M8 8a3 3 0 100-6 3 3 0 000 6zm-5 6a5 5 0 0110 0"),
+        ("TOTAL CONTRIBUTIONS", contributions, "M2 3h3v3H2zm5 0h3v3H7zm5 0h2v3h-2zM2 8h3v3H2zm5 0h3v3H7zm5 0h2v3h-2z", "ALL TIME"),
+        ("TOTAL STARS", stars, "M8 1.8l1.9 3.9 4.3.6-3.1 3 .8 4.3L8 11.3 4.1 13.6l.8-4.3-3.1-3 4.3-.6z", "PUBLIC"),
+        ("TOTAL FORKS", forks, "M4 3v7a3 3 0 003 3h2M12 3v2a3 3 0 01-3 3H7", "PUBLIC"),
+        ("FOLLOWERS", user["followers"], "M8 8a3 3 0 100-6 3 3 0 000 6zm-5 6a5 5 0 0110 0", "PUBLIC"),
     )
     cells = []
-    for index, (label, value, icon_path) in enumerate(metrics):
+    for index, (label, value, icon_path, caption) in enumerate(metrics):
         x = 24 + (index % 2) * 190
         y = 76 + (index // 2) * 85
         cells.append(
@@ -143,7 +192,7 @@ def stats_card(user: dict[str, Any], repositories: list[dict[str, Any]]) -> str:
             f'<path d="{icon_path}" fill="none" stroke="#52E0A4" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>'
             f'<text x="{x + 42}" y="{y + 26}" class="metric">{label}</text>'
             f'<text x="{x + 14}" y="{y + 57}" class="value">{compact_number(value)}</text>'
-            f'<text x="{x + 160}" y="{y + 56}" text-anchor="end" class="muted">PUBLIC</text>'
+            f'<text x="{x + 160}" y="{y + 56}" text-anchor="end" class="muted">{caption}</text>'
         )
     body = (
         '  <text x="24" y="30" class="eyebrow">PUBLIC SIGNALS / LIVE</text>\n'
@@ -198,6 +247,7 @@ def main() -> None:
     """Fetch profile data and update all self-hosted cards."""
     user = github_get(f"/users/{USERNAME}")
     repositories = github_get(f"/users/{USERNAME}/repos?per_page=100&sort=updated")
+    contributions = total_contributions_since(user["created_at"])
     OUTPUT_DIRECTORY.mkdir(parents=True, exist_ok=True)
 
     for repository_name in FEATURED_REPOSITORIES:
@@ -207,7 +257,7 @@ def main() -> None:
         )
 
     (OUTPUT_DIRECTORY / "stats.svg").write_text(
-        stats_card(user, repositories), encoding="utf-8"
+        stats_card(user, repositories, contributions), encoding="utf-8"
     )
     (OUTPUT_DIRECTORY / "languages.svg").write_text(
         language_card(repositories), encoding="utf-8"
