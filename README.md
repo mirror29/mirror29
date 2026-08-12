@@ -67,10 +67,10 @@ A quant framework where the agent is the researcher, not the trader:
 <div align="center">
 
 <a href="https://github.com/mirror29/inalpha">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mirror29&repo=inalpha&theme=tokyonight&hide_border=true&border_color=0d1117" alt="inalpha" />
+<img src="./assets/profile/inalpha.svg" alt="Inalpha" width="420" />
 </a>
 <a href="https://github.com/mirror29/openfinclaw-cli">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mirror29&repo=openfinclaw-cli&theme=tokyonight&hide_border=true&border_color=0d1117" alt="openfinclaw-cli" />
+<img src="./assets/profile/openfinclaw-cli.svg" alt="openfinclaw-cli" width="420" />
 </a>
 
 </div>
@@ -78,12 +78,12 @@ A quant framework where the agent is the researcher, not the trader:
 ## 📈 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=mirror29&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <img src="./assets/profile/stats.svg" alt="GitHub Stats" width="420" />
   <img src="https://streak-stats.demolab.com/?user=mirror29&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=mirror29&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="./assets/profile/languages.svg" alt="Top Languages" width="420" />
 </div>
 
 ## 🌟 Focus Areas
