@@ -150,7 +150,7 @@ def stats_card(user: dict[str, Any], repositories: list[dict[str, Any]]) -> str:
         '  <text x="24" y="58" class="title">GitHub footprint</text>\n'
         + "\n".join(cells)
     )
-    return svg_shell(238, body)
+    return svg_shell(246, body)
 
 
 def language_card(repositories: list[dict[str, Any]]) -> str:

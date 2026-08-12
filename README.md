@@ -79,11 +79,7 @@ A quant framework where the agent is the researcher, not the trader:
 
 <div align="center">
   <img src="./assets/profile/stats.svg" alt="GitHub Stats" width="49%" />
-  <img src="https://streak-stats.demolab.com/?user=mirror29&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="49%" />
-</div>
-
-<div align="center">
-  <img src="./assets/profile/languages.svg" alt="Top Languages" width="420" />
+  <img src="./assets/profile/languages.svg" alt="Primary Language Share" width="49%" />
 </div>
 
 ## 🌟 Focus Areas
