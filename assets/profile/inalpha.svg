@@ -31,7 +31,7 @@
   <circle cx="29" cy="151" r="4" fill="#52E0A4"/>
   <text x="40" y="155" class="metric">Python</text>
   <path d="M220 144.5l2.1 4.2 4.6.7-3.3 3.2.8 4.6-4.2-2.2-4.2 2.2.8-4.6-3.3-3.2 4.6-.7z" fill="none" stroke="#AAB8B3" stroke-width="1.2"/>
-  <text x="233" y="155" class="metric">30</text>
+  <text x="233" y="155" class="metric">31</text>
   <path d="M319 144v5a4 4 0 004 4h3m-7-9a2 2 0 11-4 0 2 2 0 014 0zm11 0a2 2 0 11-4 0 2 2 0 014 0zm0 0v2a4 4 0 01-4 4h-3" fill="none" stroke="#AAB8B3" stroke-width="1.2" stroke-linecap="round"/>
   <text x="337" y="155" class="metric">6</text>
 </svg>
