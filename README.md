@@ -1,74 +1,74 @@
-# Hi, I'm Miro（陈颖） 👋
+<p align="center">
+  <img src="./assets/profile/workbench.svg" alt="Miro's workbench — AI agents, full-stack products, and observable systems" width="100%" />
+</p>
 
-**AI 全栈工程师 · Agent Harness · 上下文工程**
+<p align="center">
+  <a href="https://inalpha.dev"><img src="https://img.shields.io/badge/BUILDING-Inalpha-d8ad70?style=flat-square&amp;labelColor=172630" alt="Building Inalpha" /></a>
+  <a href="mailto:926320181@qq.com"><img src="https://img.shields.io/badge/HELLO-email-85c6ad?style=flat-square&amp;labelColor=172630" alt="Email Miro" /></a>
+  <a href="https://www.linkedin.com/in/miro-chen-467023301"><img src="https://img.shields.io/badge/CONNECT-LinkedIn-a9b9c5?style=flat-square&amp;labelColor=172630" alt="LinkedIn" /></a>
+</p>
 
-8 年前端及全栈开发经验，做过桌面智能体、电商家居 Agent、GEO 多平台采集系统与内部协作工具。关注从交互、Agent 编排到后端服务的完整产品交付，独立设计开发开源项目 **[Inalpha](https://github.com/mirror29/inalpha)**。
+我是 **陈颖（Miro）**。写前端，也写后端；最近更关心 Agent 如何组织上下文、调用工具，以及在执行中断后继续工作。
 
-*AI full-stack engineer with 8 years of frontend and full-stack experience. I build AI products and explore agent orchestration, context engineering, and controlled execution through Inalpha.*
+*8 years in frontend & full-stack. Now building AI products and experimenting with agent systems.*
 
-[Inalpha 网站](https://inalpha.dev) · [邮箱](mailto:926320181@qq.com) · [LinkedIn](https://www.linkedin.com/in/miro-chen-467023301)
+### `~/projects`
 
-## 我关注的工程问题
+<a href="https://github.com/mirror29/inalpha"><img src="./assets/profile/inalpha.svg" alt="Inalpha repository" width="49%" /></a>
+<a href="https://github.com/mirror29/openfinclaw-cli"><img src="./assets/profile/openfinclaw-cli.svg" alt="OpenFinClaw CLI repository" width="49%" /></a>
 
-- **Agent Harness：**实践工具编排、权限审批、受限代码执行、人工接管与任务恢复；使用过 PI Agent、OpenAI Agents SDK 和 Mastra。
-- **上下文工程：**RAG 知识检索、Skill 按需加载与任务上下文组织，让工具和信息围绕当前任务工作。
-- **AI 产品交付：**连接 Web / Electron 客户端、流式交互、可编辑画布与后端服务，推进需求梳理、实现和部署。
-- **工程化与质量：**组件库、Monorepo、构建与运行时性能优化，结合接口契约校验、自动化测试、执行追踪和 Sentry 定位问题。
+**🦊 Inalpha** 是我独立设计开发的开源量化实验框架：让 Agent 做研究、生成策略和迭代实验，用工程机制约束执行边界。
 
-## 🦊 Inalpha
+- **Research → UI** — 多视角研究、多空讨论、因子分析与衰减巡检，连接 Next.js 控制台、Mastra 编排和 Python 服务。
+- **Agent Loop** — 从冻结数据和预算开始，把假设、候选策略、回测反馈接成循环；用持久化状态、检查点和租约恢复追踪实验。
+- **Harness** — 代码审计、受限执行、接口校验，以及 propose → approve → execute 审批链路。实验采用与模拟盘执行分别控制。
 
-**个人独立设计开发的开源量化实验框架。** 将多 Agent 研究、因子分析、策略生成、回测和模拟盘连接为可追踪的实验流程。
+<img src="./assets/profile/agent-loop.svg" alt="Inalpha Agent Loop: freeze data and budget, generate hypotheses, compile candidates, evaluate and iterate; champion evaluation and human adoption are separate from execution" width="100%" />
 
-[源码](https://github.com/mirror29/inalpha) · [项目网站](https://inalpha.dev) · [中文文档](https://github.com/mirror29/inalpha/blob/main/README.zh-CN.md)
+[Explore the code ↗](https://github.com/mirror29/inalpha) · [Visit Inalpha ↗](https://inalpha.dev) · [中文文档 ↗](https://github.com/mirror29/inalpha/blob/main/README.zh-CN.md)
 
-### 研究与全栈交互
+<sub>持续迭代中：进化系统的完整正向生产验收仍待完成。[实现与验证状态](https://github.com/mirror29/inalpha/blob/main/docs/04-current-state.md)。</sub>
 
-以 Next.js 控制台连接 Mastra 编排层和 Python 服务，支持多视角研究与多空讨论，记录研究证据、分歧和决策过程；结合因子血缘、衰减巡检及回测结果支持复盘。
+**OpenFinClaw CLI** — 给终端与 Agent 的量化工具入口。TypeScript CLI + MCP Server，npm 包 `@openfinclaw/cli`，附交互式安装向导。[Source ↗](https://github.com/mirror29/openfinclaw-cli)
 
-### Agent Loop 与进化系统
+### `~/toolbox`
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-172630?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-172630?style=flat-square&logo=nextdotjs&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-172630?style=flat-square&logo=electron&logoColor=9FEAF9)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+![PI Agent](https://img.shields.io/badge/PI_Agent-253b35?style=flat-square)
+![OpenAI Agents SDK](https://img.shields.io/badge/OpenAI_Agents_SDK-253b35?style=flat-square)
+![Mastra](https://img.shields.io/badge/Mastra-253b35?style=flat-square)
+![MCP](https://img.shields.io/badge/MCP-253b35?style=flat-square)
+![CopilotKit](https://img.shields.io/badge/CopilotKit-253b35?style=flat-square)
+![AG-UI](https://img.shields.io/badge/AG--UI-253b35?style=flat-square)
 
 ```text
-冻结数据与预算 → 生成研究假设 → 确定性编译候选策略 → 回测评估
-                       ↑                              │
-                       └──────── 评估反馈驱动迭代 ─────┘
-                                      │
-                                      ↓
-                        冠军候选 → Forward / Holdout → 人工采用
+context   → RAG / on-demand skills / task context
+execution → tools / permissions / sandboxing / human handoff
+recovery  → checkpoints / execution traces / task resumption
+shipping  → components / monorepo / CI / tests / performance
 ```
 
-围绕实验循环设计持久化状态、检查点、重复触发复用与租约恢复机制，使迭代过程能够追踪和恢复。实验性采用与模拟盘执行分开控制，不因产生候选结果就自动启动策略或下单。
+### `~/other-builds`
 
-### Harness 与执行边界
+- **[Owlume ↗](https://www.owlume.work/)** — 电商家居 Agent 项目负责人。OpenAI Agents SDK × CopilotKit / AG-UI × Tldraw，把 Agent 和可编辑画布连接起来。
+- **Desktop agents** — Electron × PI Agent，做过 Skill 管理、会话隔离、人工接管与任务恢复。
+- **Workflow tools** — GEO 多平台答案与引用采集；飞书协作助手串联需求、缺陷、源码分析和研发日报。
+- **[wangEditor-formula ↗](https://github.com/mirror29/wangEditor-formula)** — 早期的公式编辑器插件实践，连接 kityformula 与 myscript-math-web。
 
-为模型生成代码设置审计、受限执行与接口校验；通过 propose → approve → execute 链路、一次性限时审批令牌和决策日志控制敏感操作。结合时序交叉验证与统计校正降低回测过拟合风险。
-
-> 项目持续迭代中。进化系统的完整正向生产验收仍待完成；已实现能力与验证状态见[项目状态文档](https://github.com/mirror29/inalpha/blob/main/docs/04-current-state.md)。
-
-## 其他项目与产品经历
-
-| 项目 / 方向 | 我的工作 |
-| --- | --- |
-| **[OpenFinClaw CLI](https://github.com/mirror29/openfinclaw-cli)** | 开源工具开发：TypeScript CLI 与 MCP Server 双入口，已发布 npm 包 `@openfinclaw/cli`，提供交互式安装向导。 |
-| **[电商家居 Agent / Owlume](https://www.owlume.work/)** | 在新旦相关经历中担任项目负责人，推进需求、技术选型与开发协作；使用 OpenAI Agents SDK / FastAPI，连接 Next.js、CopilotKit / AG-UI 与 Tldraw 画布交互。 |
-| **桌面智能体** | 在熵基律动负责 Electron 客户端开发，使用 PI Agent 进行编排，实践 Skill 管理、会话隔离、人工接管与任务恢复。 |
-| **GEO 与内部提效** | 开发多平台 AI 答案及引用采集系统；建设飞书协作助手，串联需求、缺陷、源码分析与研发日报。 |
-| **[wangEditor-formula](https://github.com/mirror29/wangEditor-formula)** | 公式编辑器插件，集成 kityformula 与 myscript-math-web，保留前端编辑器扩展方面的实践。 |
-
-## 常用技术
-
-| 方向 | 技术 |
-| --- | --- |
-| 前端与客户端 | TypeScript · React · Next.js · Vue · Electron · Tldraw |
-| Agent 与交互 | PI Agent · OpenAI Agents SDK · Mastra · MCP · CopilotKit · AG-UI |
-| 后端与数据 | Python · FastAPI · Node.js · PostgreSQL · pgvector |
-| 工程与质量 | Monorepo · CI/CD · Docker · Vitest · Playwright · Sentry |
-
-## 联系我
-
-欢迎交流 AI 产品、Agent 工程与全栈开发机会。
-
-**[926320181@qq.com](mailto:926320181@qq.com)** · [inalpha.dev](https://inalpha.dev)
+<details>
+<summary><b>📊 GitHub telemetry</b></summary>
+<br />
+<img src="./assets/profile/stats.svg" alt="GitHub statistics" width="49%" />
+<img src="./assets/profile/languages.svg" alt="Primary language share" width="49%" />
+</details>
 
 ---
 
-*做个梦给你 · Building Inalpha 🦊*
+<p align="center"><i>做个梦给你 · Building Inalpha 🦊</i><br /><sub><a href="mailto:926320181@qq.com">926320181@qq.com</a> · <a href="https://inalpha.dev">inalpha.dev</a></sub></p>
