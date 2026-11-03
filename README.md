@@ -10,7 +10,7 @@ I'm a **Full-Stack & AI Agent Developer** with **8 years of frontend and full-st
 
 - 🦊 Independently building **[Inalpha](https://github.com/mirror29/inalpha)** — an open-source quant experimentation framework for multi-agent research, strategy generation, backtesting, and paper trading.
 - 🛠️ Building tools for developers and agents, including **[OpenFinClaw CLI](https://github.com/mirror29/openfinclaw-cli)** — a TypeScript CLI and MCP Server, published as `@openfinclaw/cli` with an interactive setup wizard.
-- 🎨 Led the **[Owlume](https://www.owlume.work/)** e-commerce and home-design agent project; also worked on desktop agents, GEO answer and citation collection, and Feishu collaboration tools.
+- 🎨 Led a **home-design agent** project; also worked on desktop agents, GEO answer and citation collection, and Feishu collaboration tools.
 - 🌱 Exploring **Agent Harness & Context Engineering** — tool orchestration, permissions, restricted execution, human handoff, task recovery, RAG, and on-demand skills.
 - 💬 Ask me about **AI agents, React / Next.js, Electron, TypeScript, and Python**.
 
