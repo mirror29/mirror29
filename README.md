@@ -1,74 +1,130 @@
-<p align="center">
-  <img src="./assets/profile/workbench.svg" alt="Miro's workbench — AI agents, full-stack products, and observable systems" width="100%" />
-</p>
+# Hi there! 👋 I'm Miro
 
-<p align="center">
-  <a href="https://inalpha.dev"><img src="https://img.shields.io/badge/BUILDING-Inalpha-d8ad70?style=flat-square&amp;labelColor=172630" alt="Building Inalpha" /></a>
-  <a href="mailto:926320181@qq.com"><img src="https://img.shields.io/badge/HELLO-email-85c6ad?style=flat-square&amp;labelColor=172630" alt="Email Miro" /></a>
-  <a href="https://www.linkedin.com/in/miro-chen-467023301"><img src="https://img.shields.io/badge/CONNECT-LinkedIn-a9b9c5?style=flat-square&amp;labelColor=172630" alt="LinkedIn" /></a>
-</p>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Building+Inalpha+%E2%80%94+Quant+Agent+Framework;AI+Agents+%C3%97+Full--Stack+Engineering;Context%2C+tools%2C+permissions%2C+recovery" alt="Typing SVG" />
+</div>
 
-我是 **Miro**。写前端，也写后端；最近更关心 Agent 如何组织上下文、调用工具，以及在执行中断后继续工作。
+## 🚀 About Me
 
-*8 years in frontend & full-stack. Now building AI products and experimenting with agent systems.*
+I'm a **Full-Stack & AI Agent Developer** with **8 years of frontend and full-stack experience**. I enjoy connecting interfaces, agents, and backend services into working products.
 
-### `~/projects`
+- 🦊 Independently building **[Inalpha](https://github.com/mirror29/inalpha)** — an open-source quant experimentation framework for multi-agent research, strategy generation, backtesting, and paper trading.
+- 🛠️ Building tools for developers and agents, including **[OpenFinClaw CLI](https://github.com/mirror29/openfinclaw-cli)** — a TypeScript CLI and MCP Server, published as `@openfinclaw/cli` with an interactive setup wizard.
+- 🎨 Led the **[Owlume](https://www.owlume.work/)** e-commerce and home-design agent project; also worked on desktop agents, GEO answer and citation collection, and Feishu collaboration tools.
+- 🌱 Exploring **Agent Harness & Context Engineering** — tool orchestration, permissions, restricted execution, human handoff, task recovery, RAG, and on-demand skills.
+- 💬 Ask me about **AI agents, React / Next.js, Electron, TypeScript, and Python**.
 
-<a href="https://github.com/mirror29/inalpha"><img src="./assets/profile/inalpha.svg" alt="Inalpha repository" width="49%" /></a>
-<a href="https://github.com/mirror29/openfinclaw-cli"><img src="./assets/profile/openfinclaw-cli.svg" alt="OpenFinClaw CLI repository" width="49%" /></a>
+## 🦊 Inalpha — What Makes It Different
 
-**🦊 Inalpha** 是我独立设计开发的开源量化实验框架：让 Agent 做研究、生成策略和迭代实验，用工程机制约束执行边界。
+An experiment in giving agents room to research while keeping execution boundaries explicit:
 
-- **Research → UI** — 多视角研究、多空讨论、因子分析与衰减巡检，连接 Next.js 控制台、Mastra 编排和 Python 服务。
-- **Agent Loop** — 从冻结数据和预算开始，把假设、候选策略、回测反馈接成循环；用持久化状态、检查点和租约恢复追踪实验。
-- **Harness** — 代码审计、受限执行、接口校验，以及 propose → approve → execute 审批链路。实验采用与模拟盘执行分别控制。
+- **Multi-perspective research** — analyst collaboration and bull/bear discussion, with research evidence and decision records available for review.
+- **Factor engineering** — factor analysis, lineage tracking, and decay monitoring, alongside time-series cross-validation and statistical corrections for backtest evaluation.
+- **Agent Loop** — freeze data and budget → generate hypotheses → compile candidate strategies → backtest → feed evaluation results into the next iteration. Persistent state, checkpoints, and lease-based recovery support the loop.
+- **Controlled adoption** — champion candidates move through Forward / Holdout evaluation and human adoption. Experimental adoption does not automatically start a strategy or place an order.
+- **Execution harness** — code auditing, restricted execution, interface validation, and a propose → approve → execute path with one-time, expiring approval tokens.
 
-<img src="./assets/profile/agent-loop.svg" alt="Inalpha Agent Loop: freeze data and budget, generate hypotheses, compile candidates, evaluate and iterate; champion evaluation and human adoption are separate from execution" width="100%" />
+<sub>Actively evolving: full positive-path production validation of the evolution system is still pending. See the [implementation and validation status](https://github.com/mirror29/inalpha/blob/main/docs/04-current-state.md).</sub>
 
-[Explore the code ↗](https://github.com/mirror29/inalpha) · [Visit Inalpha ↗](https://inalpha.dev) · [中文文档 ↗](https://github.com/mirror29/inalpha/blob/main/README.zh-CN.md)
+## 🛠️ Tech Stack
 
-<sub>持续迭代中：进化系统的完整正向生产验收仍待完成。[实现与验证状态](https://github.com/mirror29/inalpha/blob/main/docs/04-current-state.md)。</sub>
+### AI & Agent
 
-**OpenFinClaw CLI** — 给终端与 Agent 的量化工具入口。TypeScript CLI + MCP Server，npm 包 `@openfinclaw/cli`，附交互式安装向导。[Source ↗](https://github.com/mirror29/openfinclaw-cli)
+![Claude](https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![PI Agent](https://img.shields.io/badge/PI_Agent-0F766E?style=for-the-badge)
+![OpenAI Agents SDK](https://img.shields.io/badge/OpenAI_Agents_SDK-412991?style=for-the-badge)
+![Context Engineering](https://img.shields.io/badge/Context_Engineering-2563EB?style=for-the-badge)
+![Mastra](https://img.shields.io/badge/Mastra-1A1A2E?style=for-the-badge)
+![MCP](https://img.shields.io/badge/MCP-FF6B6B?style=for-the-badge)
+![Agent Orchestration](https://img.shields.io/badge/Agent_Orchestration-0F766E?style=for-the-badge)
+![Multi-Agent](https://img.shields.io/badge/Multi--Agent-2563EB?style=for-the-badge)
+![Agent Skills](https://img.shields.io/badge/Agent_Skills-7C3AED?style=for-the-badge)
+![AI Guardrails](https://img.shields.io/badge/AI_Guardrails-DC2626?style=for-the-badge)
+![Harness Engineering](https://img.shields.io/badge/Harness_Engineering-111827?style=for-the-badge)
+![Sandboxing](https://img.shields.io/badge/Sandboxing-D97706?style=for-the-badge)
 
-### `~/toolbox`
+### Backend & Quant
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-172630?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-172630?style=flat-square&logo=nextdotjs&logoColor=white)
-![Electron](https://img.shields.io/badge/Electron-172630?style=flat-square&logo=electron&logoColor=9FEAF9)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
-![PI Agent](https://img.shields.io/badge/PI_Agent-253b35?style=flat-square)
-![OpenAI Agents SDK](https://img.shields.io/badge/OpenAI_Agents_SDK-253b35?style=flat-square)
-![Mastra](https://img.shields.io/badge/Mastra-253b35?style=flat-square)
-![MCP](https://img.shields.io/badge/MCP-253b35?style=flat-square)
-![CopilotKit](https://img.shields.io/badge/CopilotKit-253b35?style=flat-square)
-![AG-UI](https://img.shields.io/badge/AG--UI-253b35?style=flat-square)
+### Frontend & Desktop
 
-```text
-context   → RAG / on-demand skills / task context
-execution → tools / permissions / sandboxing / human handoff
-recovery  → checkpoints / execution traces / task resumption
-shipping  → components / monorepo / CI / tests / performance
-```
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
+![CopilotKit](https://img.shields.io/badge/CopilotKit-111827?style=for-the-badge)
+![Vue](https://img.shields.io/badge/vue-4FC08D?style=for-the-badge&logo=vue.js&logoColor=black)
 
-### `~/other-builds`
+### DevOps & Testing
 
-- **[Owlume ↗](https://www.owlume.work/)** — 电商家居 Agent 项目负责人。OpenAI Agents SDK × CopilotKit / AG-UI × Tldraw，把 Agent 和可编辑画布连接起来。
-- **Desktop agents** — Electron × PI Agent，做过 Skill 管理、会话隔离、人工接管与任务恢复。
-- **Workflow tools** — GEO 多平台答案与引用采集；飞书协作助手串联需求、缺陷、源码分析和研发日报。
-- **[wangEditor-formula ↗](https://github.com/mirror29/wangEditor-formula)** — 早期的公式编辑器插件实践，连接 kityformula 与 myscript-math-web。
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-<details>
-<summary><b>📊 GitHub telemetry</b></summary>
-<br />
-<img src="./assets/profile/stats.svg" alt="GitHub statistics" width="49%" />
-<img src="./assets/profile/languages.svg" alt="Primary language share" width="49%" />
-</details>
+## 🏆 Featured Projects
+
+<div align="center">
+
+<a href="https://github.com/mirror29/inalpha">
+<img src="./assets/profile/inalpha.svg" alt="Inalpha" width="49%" />
+</a>
+<a href="https://github.com/mirror29/openfinclaw-cli">
+<img src="./assets/profile/openfinclaw-cli.svg" alt="openfinclaw-cli" width="49%" />
+</a>
+
+</div>
+
+## 📈 GitHub Stats
+
+<div align="center">
+  <img src="./assets/profile/stats.svg" alt="GitHub Stats" width="49%" />
+  <img src="./assets/profile/languages.svg" alt="Primary Language Share" width="49%" />
+</div>
+
+## 🌟 Focus Areas
+
+- Agent runtimes: context, tools, permissions, and recovery
+- Research and strategy evolution with reproducible experiment records
+- Interactive AI products: streaming interfaces, editable canvases, and desktop workflows
+- Developer experience: component libraries, monorepos, testing, and performance
+
+## 🤝 Let's Connect
+
+Always happy to talk about AI agents, full-stack products, open-source experiments, and engineering opportunities.
+
+<div align="center" style="display: flex; justify-content: center; gap: 10px;">
+  <a href="https://inalpha.dev">
+    <img src="https://img.shields.io/badge/inalpha.dev-1a1a2e?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website">
+  </a>
+  <a href="mailto:926320181@qq.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+  <a href="https://www.linkedin.com/in/miro-chen-467023301">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://x.com/inalpha_quant">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
+  </a>
+</div>
 
 ---
 
-<p align="center"><i>做个梦给你 · Building Inalpha 🦊</i><br /><sub><a href="mailto:926320181@qq.com">926320181@qq.com</a> · <a href="https://inalpha.dev">inalpha.dev</a></sub></p>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=mirror29&color=3B82F6&style=for-the-badge" alt="Profile Views" />
+</div>
+
+<div align="center">
+  <i>Agents do the research. Machines guard the orders. 🦊</i>
+</div>
