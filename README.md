@@ -8,7 +8,7 @@
   <a href="https://www.linkedin.com/in/miro-chen-467023301"><img src="https://img.shields.io/badge/CONNECT-LinkedIn-a9b9c5?style=flat-square&amp;labelColor=172630" alt="LinkedIn" /></a>
 </p>
 
-我是 **陈颖（Miro）**。写前端，也写后端；最近更关心 Agent 如何组织上下文、调用工具，以及在执行中断后继续工作。
+我是 **Miro**。写前端，也写后端；最近更关心 Agent 如何组织上下文、调用工具，以及在执行中断后继续工作。
 
 *8 years in frontend & full-stack. Now building AI products and experimenting with agent systems.*
 
