@@ -1,124 +1,74 @@
-# Hi there! 👋 I'm Miro - 暮霭
+# Hi, I'm Miro（陈颖） 👋
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Building+Inalpha+%E2%80%94+Quant+Agent+Framework;AI+Agents+%C3%97+Quantitative+Trading;LLM+writes+strategies%2C+machines+approve+orders" alt="Typing SVG" />
-</div>
+**AI 全栈工程师 · Agent Harness · 上下文工程**
 
-## 🚀 About Me
+8 年前端及全栈开发经验，做过桌面智能体、电商家居 Agent、GEO 多平台采集系统与内部协作工具。关注从交互、Agent 编排到后端服务的完整产品交付，独立设计开发开源项目 **[Inalpha](https://github.com/mirror29/inalpha)**。
 
-I'm a **Full-Stack & AI Agent Developer** with 8+ years of experience, building at the intersection of **AI agents** and **quantitative trading**.
+*AI full-stack engineer with 8 years of frontend and full-stack experience. I build AI products and explore agent orchestration, context engineering, and controlled execution through Inalpha.*
 
-- 🦊 Currently building **[Inalpha](https://github.com/mirror29/inalpha)** — an open-source professional quant agent framework. Agents pick the factors working *now* to time entries, write full strategies, and evolve them in a sandbox. Every order goes through machine approval — the LLM is never on the order path.
-- 🛠️ Also shipped **[openfinclaw-cli](https://github.com/mirror29/openfinclaw-cli)** — a one-stop quant-trading AI agent that runs inside Claude Code, Cursor, and 20+ AI agents via MCP.
-- 🌱 Exploring the **AI Agent Skills ecosystem**, protocol standards (MCP / A2A), and **Harness Engineering** — building AI development harnesses with headless QA, deploy pipelines, and autonomous dev loops.
-- 💬 Ask me about **AI Agents**, **factor investing**, **Next.js**, **TypeScript**, and **Python**
-- ⚡ Fun fact: I believe the right division of labor is — agents do the research, machines guard the orders.
+[Inalpha 网站](https://inalpha.dev) · [邮箱](mailto:926320181@qq.com) · [LinkedIn](https://www.linkedin.com/in/miro-chen-467023301)
 
-## 🦊 Inalpha — What Makes It Different
+## 我关注的工程问题
 
-A quant framework where the agent is the researcher, not the trader:
+- **Agent Harness：**实践工具编排、权限审批、受限代码执行、人工接管与任务恢复；使用过 PI Agent、OpenAI Agents SDK 和 Mastra。
+- **上下文工程：**RAG 知识检索、Skill 按需加载与任务上下文组织，让工具和信息围绕当前任务工作。
+- **AI 产品交付：**连接 Web / Electron 客户端、流式交互、可编辑画布与后端服务，推进需求梳理、实现和部署。
+- **工程化与质量：**组件库、Monorepo、构建与运行时性能优化，结合接口契约校验、自动化测试、执行追踪和 Sentry 定位问题。
 
-- **Factor timing** — agents track which factors are working *right now* and time entries accordingly, backed by a 70-factor library with lineage audits.
-- **LLM-written strategies** — the agent authors complete strategies from a conversation, then backtests them against fresh, multi-market data.
-- **Sandbox evolution** — strategies are promoted, paper-traded, and evolved in isolation before anything matters.
-- **Machine approval** — a deterministic risk gate sits on the order path. The LLM proposes; it never executes.
-- **Multi-market, audit-grade** — crypto, US/CN/HK equities, global indices, FRED macro. Every number traces to a data source with freshness checks.
+## 🦊 Inalpha
 
-## 🛠️ Tech Stack
+**个人独立设计开发的开源量化实验框架。** 将多 Agent 研究、因子分析、策略生成、回测和模拟盘连接为可追踪的实验流程。
 
-### AI & Agent
+[源码](https://github.com/mirror29/inalpha) · [项目网站](https://inalpha.dev) · [中文文档](https://github.com/mirror29/inalpha/blob/main/README.zh-CN.md)
 
-![Claude](https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Mastra](https://img.shields.io/badge/Mastra-1A1A2E?style=for-the-badge)
-![MCP](https://img.shields.io/badge/MCP-FF6B6B?style=for-the-badge)
-![Agent Orchestration](https://img.shields.io/badge/Agent_Orchestration-0F766E?style=for-the-badge)
-![Multi-Agent](https://img.shields.io/badge/Multi--Agent-2563EB?style=for-the-badge)
-![Agent Skills](https://img.shields.io/badge/Agent_Skills-7C3AED?style=for-the-badge)
-![AI Guardrails](https://img.shields.io/badge/AI_Guardrails-DC2626?style=for-the-badge)
-![Harness Engineering](https://img.shields.io/badge/Harness_Engineering-111827?style=for-the-badge)
-![Sandboxing](https://img.shields.io/badge/Sandboxing-D97706?style=for-the-badge)
+### 研究与全栈交互
 
-### Backend & Quant
+以 Next.js 控制台连接 Mastra 编排层和 Python 服务，支持多视角研究与多空讨论，记录研究证据、分歧和决策过程；结合因子血缘、衰减巡检及回测结果支持复盘。
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+### Agent Loop 与进化系统
 
-### Frontend
+```text
+冻结数据与预算 → 生成研究假设 → 确定性编译候选策略 → 回测评估
+                       ↑                              │
+                       └──────── 评估反馈驱动迭代 ─────┘
+                                      │
+                                      ↓
+                        冠军候选 → Forward / Holdout → 人工采用
+```
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
-![Vue](https://img.shields.io/badge/vue-4FC08D?style=for-the-badge&logo=vue.js&logoColor=black)
+围绕实验循环设计持久化状态、检查点、重复触发复用与租约恢复机制，使迭代过程能够追踪和恢复。实验性采用与模拟盘执行分开控制，不因产生候选结果就自动启动策略或下单。
 
-### DevOps & Testing
+### Harness 与执行边界
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+为模型生成代码设置审计、受限执行与接口校验；通过 propose → approve → execute 链路、一次性限时审批令牌和决策日志控制敏感操作。结合时序交叉验证与统计校正降低回测过拟合风险。
 
-## 🏆 Featured Projects
+> 项目持续迭代中。进化系统的完整正向生产验收仍待完成；已实现能力与验证状态见[项目状态文档](https://github.com/mirror29/inalpha/blob/main/docs/04-current-state.md)。
 
-<div align="center">
+## 其他项目与产品经历
 
-<a href="https://github.com/mirror29/inalpha">
-<img src="./assets/profile/inalpha.svg" alt="Inalpha" width="49%" />
-</a>
-<a href="https://github.com/mirror29/openfinclaw-cli">
-<img src="./assets/profile/openfinclaw-cli.svg" alt="openfinclaw-cli" width="49%" />
-</a>
+| 项目 / 方向 | 我的工作 |
+| --- | --- |
+| **[OpenFinClaw CLI](https://github.com/mirror29/openfinclaw-cli)** | 开源工具开发：TypeScript CLI 与 MCP Server 双入口，已发布 npm 包 `@openfinclaw/cli`，提供交互式安装向导。 |
+| **[电商家居 Agent / Owlume](https://www.owlume.work/)** | 在新旦相关经历中担任项目负责人，推进需求、技术选型与开发协作；使用 OpenAI Agents SDK / FastAPI，连接 Next.js、CopilotKit / AG-UI 与 Tldraw 画布交互。 |
+| **桌面智能体** | 在熵基律动负责 Electron 客户端开发，使用 PI Agent 进行编排，实践 Skill 管理、会话隔离、人工接管与任务恢复。 |
+| **GEO 与内部提效** | 开发多平台 AI 答案及引用采集系统；建设飞书协作助手，串联需求、缺陷、源码分析与研发日报。 |
+| **[wangEditor-formula](https://github.com/mirror29/wangEditor-formula)** | 公式编辑器插件，集成 kityformula 与 myscript-math-web，保留前端编辑器扩展方面的实践。 |
 
-</div>
+## 常用技术
 
-## 📈 GitHub Stats
+| 方向 | 技术 |
+| --- | --- |
+| 前端与客户端 | TypeScript · React · Next.js · Vue · Electron · Tldraw |
+| Agent 与交互 | PI Agent · OpenAI Agents SDK · Mastra · MCP · CopilotKit · AG-UI |
+| 后端与数据 | Python · FastAPI · Node.js · PostgreSQL · pgvector |
+| 工程与质量 | Monorepo · CI/CD · Docker · Vitest · Playwright · Sentry |
 
-<div align="center">
-  <img src="./assets/profile/stats.svg" alt="GitHub Stats" width="49%" />
-  <img src="./assets/profile/languages.svg" alt="Primary Language Share" width="49%" />
-</div>
+## 联系我
 
-## 🌟 Focus Areas
+欢迎交流 AI 产品、Agent 工程与全栈开发机会。
 
-- Factor timing and factor-library engineering (lineage audits, IC benchmarks, factor discovery)
-- LLM-written strategies with audit-grade boundaries
-- Strategy evolution in sandboxes — promote, paper-trade, reflect
-- Machine approval on the order path (risk gates, permissions, plan-exec)
-- AI Agent Skills ecosystem, MCP / A2A, and Harness Engineering
-
-## 🤝 Let's Connect
-
-Always happy to talk about AI agents, quantitative trading, and what happens when you put the two together.
-
-<div align="center" style="display: flex; justify-content: center; gap: 10px;">
-  <a href="https://inalpha.dev">
-    <img src="https://img.shields.io/badge/inalpha.dev-1a1a2e?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website">
-  </a>
-  <a href="mailto:cma19951230@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-  <a href="https://www.linkedin.com/in/miro-chen-467023301">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="https://x.com/inalpha_quant">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
-  </a>
-</div>
+**[926320181@qq.com](mailto:926320181@qq.com)** · [inalpha.dev](https://inalpha.dev)
 
 ---
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=mirror29&color=3B82F6&style=for-the-badge" alt="Profile Views" />
-</div>
-
-<div align="center">
-  <i>Agents do the research. Machines guard the orders. 🦊</i>
-</div>
+*做个梦给你 · Building Inalpha 🦊*
